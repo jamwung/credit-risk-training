@@ -1,0 +1,47 @@
+# Virtual environment
+.venv/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.ipynb_checkpoints/
+*.egg-info/
+dist/
+build/
+
+# Type checking and linting caches
+.mypy_cache/
+.ruff_cache/
+
+# Testing
+.pytest_cache/
+
+# Data — never committed
+data/
+*.csv
+*.parquet
+*.xlsx
+*.json
+
+# Model artifacts — versioned in MLflow, not Git
+models/
+*.joblib
+*.pkl
+*.h5
+
+# MLflow local store
+mlruns/
+mlartifacts/
+
+# Environment config
+.env
+*.env
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.idea/
+.vscode/settings.json
