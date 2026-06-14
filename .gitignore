@@ -31,6 +31,7 @@ models/
 *.h5
 
 # MLflow local store
+mlflow.db
 mlruns/
 mlartifacts/
 
